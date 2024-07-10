@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NetFriends-By Himanshu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<nav>
+  <div class="nav-left">
+    <img src="./images/logo.png" class="logo" alt="">
+    <ul>
+      <li><img src="./images/notification.png" alt=""></li>
+      <li><img src="./images/inbox.png" alt=""></li>
+      <li><img src="./images/video.png" alt=""></li>
+    </ul>
+  </div>
+  <div class="nav-right">
+    <div class="search-box">
+      <img src="./images/search.png" alt="">
+      <input type="text" placeholder="Search">
+    </div>
+    <div class="nav-user-icon online " onclick="settingsMenuToggle()">
+      <img src="./images/profile-pic.png" alt="">
+    </div>
+  </div>
+  <!-- ----------setting-menu------- -->
+  <div class="setting-menu">
+    <div id="dark-btn" >
+      <span></span>
+    </div>
+
+
+
+    <div class="setting-menu-innner">
+      <div class="user-profile">
+        <img src="./images/profile-pic.png" alt="">
+        <div >
+          <p>Johnny Sinha</p>
+         <a href="#">See Your profile</a>
+        </div>
+      </div>
+      <hr>
+      <div class="user-profile">
+        <img src="./images/feedback.png" alt="">
+        <div >
+          <p>Give Feedback</p>
+         <a href="#">Help us to improve the new design</a>
+        </div>
+      </div>
+      <hr>
+      <div class="setting-links">
+        <img src="./images/setting.png" alt="" class="seeting-icon">
+        <a href="#">Settings & Privacy <img src="./images/arrow.png" width="10px" alt=""></a>
+      </div>
+      <div class="setting-links">
+        <img src="./images/help.png" alt="" class="seeting-icon">
+        <a href="#">Help & Support <img src="./images/arrow.png" width="10px" alt=""></a>
+      </div>
+      <div class="setting-links">
+        <img src="./images/display.png" alt="" class="seeting-icon">
+        <a href="#">Display & Assesability<img src="./images/arrow.png" width="10px" alt=""></a>
+      </div>
+      <div class="setting-links">
+        <img src="./images/logout.png" alt="" class="seeting-icon">
+        <a href="#">Logout <img src="./images/arrow.png" width="10px" alt=""></a>
+      </div>
+
+
+
+
+
+
+
+   </div>
+  </div>
+</nav>
+
+<section>
+
+<div class="container">
+  <!-- left vala side -->
+
+  <div class="left-sidebar">
+    <div class="imp-links">
+      <a href="#"><img src="./images/news.png"> latest News</a>
+      <a href="#"><img src="./images/friends.png"> Friends</a>
+      <a href="#"><img src="./images/group.png"> Group</a>
+      <a href="#"><img src="./images/marketplace.png"> marketplace</a>
+      <a href="#"><img src="./images/watch.png"> watch</a>
+      <a href="#">See More</a>
+    </div>
+    <div class="shortcut">
+
+      <p>Your shortcut</p>
+      <a href="#"><img src="./images/shortcut-1.png"> Web Developers</a>
+      <a href="#"><img src="./images/shortcut-2.png">Web Design Course </a>
+      <a href="#"><img src="./images/shortcut-3.png"> Full Stack Developers</a>
+      <a href="#"><img src="./images/shortcut-4.png"> Website Experts</a>
+
+    </div>
+
+  </div>
+  <!-- main content -->
+  <div class="center-sidebar">
+  <div class="story-gallery">
+    <div class="story story1">
+      <img src="./images/upload.png" alt="">
+      <p>
+      Post Story
+      </p>
+    </div>
+    <div class="story story2">
+      <img src="./images/member-1.png" alt="">
+      <p>
+        Anita hasandani
+      </p>
+    </div>
+    <div class="story story3">
+      <img src="./images/member-2.png" alt="">
+      <p>
+      Ankit Raj
+      </p>
+    </div>
+    <div class="story story4">
+      <img src="./images/member-3.png" alt="">
+      <p>
+      Surbhi Jyoti
+      </p>
+    </div>
+    <div class="story story5">
+      <img src="./images/member-4.png" alt="">
+      <p>
+      Jubin Nautiyal
+      </p>
+    </div>
+  </div>
+  <div class="write-post-continer">
+    <div class="user-profile">
+      <img src="./images/profile-pic.png" alt="">
+      <div >
+        <p>Johnny Sinha</p>
+        <small>public  <i class="fa-solid fa-caret-down"></i></small>
+      </div>
+    </div>
+
+
+    <div class="post-input">
+      <textarea rows="3" placeholder="What's on your mind Jhonny?"></textarea>
+      <div class="addpostlink">
+        <a href="#"><img src="images/live-video.png" alt="">Live Viedo</a>
+        <a href="#"><img src="images/photo.png" alt="">Photo/Viedo</a>
+        <a href="#"><img src="images/feeling.png" alt="">Felling/Activity</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="post-container">
+    <div class="post-row">
+      <div class="user-profile">
+        <img src="./images/profile-pic.png" alt="">
+        <div >
+          <p>Johnny Sinha</p>
+          <span>June 24 2022, 12:40 Pm</span>
+        </div>
+      </div>
+      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+    </div>
+    
+<p class="post-text">Subscribe<span> Himashu Blog</span>  youtube Channel and watch more Viedo like this
+<a href="#">#himanshu blog</a>  <a href="#">#youtubechannel</a></p>
+<img src="./images/feed-image-1.png" alt="" class="post-img">
+<div class="post-row">
+  <div class="activity-icon">
+  <div><img src="./images/like-blue.png" alt="">
+  120</div>
+  <div><img src="./images/comments.png" alt="">
+    45</div>
+    <div><img src="./images/share.png" alt="">
+      20</div>
+  </div>
+  <div class="post-profile-icon">
+<img src="./images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+  </div>
+</div>
+  </div>
+
+  <div class="post-container">
+    <div class="post-row">
+      <div class="user-profile">
+        <img src="./images/photo4.png" alt="">
+        <div >
+          <p>Ankit Raj</p>
+          <span>April 24 2024, 11:40 Am</span>
+        </div>
+      </div>
+      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+    </div>
+    
+<p class="post-text">Subscribe<span> Ankit site</span>  youtube Channel and watch more Viedo like this
+<a href="#">#Ankit site </a>  <a href="#">#youtubechannel</a></p>
+<img src="./images/feed-image-2.png" alt="" class="post-img">
+<div class="post-row">
+  <div class="activity-icon">
+  <div><img src="./images/like-blue.png" alt="">
+  150</div>
+  <div><img src="./images/comments.png" alt="">
+    35</div>
+    <div><img src="./images/share.png" alt="">
+      25</div>
+  </div>
+  <div class="post-profile-icon">
+<img src="./images/photo4.png" alt=""><i class="fa-solid fa-caret-down"></i>
+  </div>
+</div>
+  </div>
+  <div class="post-container">
+    <div class="post-row">
+      <div class="user-profile">
+        <img src="./images/photo3.png" alt="">
+        <div >
+          <p>siman Sinha</p>
+          <span>June 25 2023, 02:40 Pm</span>
+        </div>
+      </div>
+      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+    </div>
+    
+<p class="post-text">Subscribe<span> Blog</span>  youtube Channel and watch more Viedo like this
+<a href="#">#Blog</a>  <a href="#">#youtubechannel</a></p>
+<img src="./images/feed-image-3.png" alt="" class="post-img">
+<div class="post-row">
+  <div class="activity-icon">
+  <div><img src="./images/like-blue.png" alt="">
+  150</div>
+  <div><img src="./images/comments.png" alt="">
+    55</div>
+    <div><img src="./images/share.png" alt="">
+      20</div>
+  </div>
+  <div class="post-profile-icon">
+<img src="./images/photo3.png" alt=""><i class="fa-solid fa-caret-down"></i>
+  </div>
+</div>
+  </div>
+  <div class="post-container">
+    <div class="post-row">
+      <div class="user-profile">
+        <img src="./images/photo2.png" alt="">
+        <div >
+          <p>md akhtar ali</p>
+          <span>June 24 2024, 12:40 Pm</span>
+        </div>
+      </div>
+      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+    </div>
+    
+<p class="post-text">Subscribe<span> website</span>  youtube Channel and watch more Viedo like this
+<a href="#">#website</a>  <a href="#">#youtubechannel</a></p>
+<img src="./images/feed-image-4.png" alt="" class="post-img">
+<div class="post-row">
+  <div class="activity-icon">
+  <div><img src="./images/like-blue.png" alt="">
+  200</div>
+  <div><img src="./images/comments.png" alt="">
+    50</div>
+    <div><img src="./images/share.png" alt="">
+      55</div>
+  </div>
+  <div class="post-profile-icon">
+<img src="./images/photo2.png" alt=""><i class="fa-solid fa-caret-down"></i>
+  </div>
+</div>
+  </div>
+  <div class="post-container">
+    <div class="post-row">
+      <div class="user-profile">
+        <img src="./images/photo5.png" alt="">
+        <div >
+          <p>Amit Sah</p>
+          <span>June 24 2022, 12:40 Pm</span>
+        </div>
+      </div>
+      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+    </div>
+    
+<p class="post-text">Subscribe<span> Himashu Blog</span>  youtube Channel and watch more Viedo like this
+<a href="#">#himanshu blog</a>  <a href="#">#youtubechannel</a></p>
+<img src="./images/photo5.png" alt="" class="post-img">
+<div class="post-row">
+  <div class="activity-icon">
+  <div><img src="./images/like-blue.png" alt="">
+  220</div>
+  <div><img src="./images/comments.png" alt="">
+    25</div>
+    <div><img src="./images/share.png" alt="">
+      20</div>
+  </div>
+  <div class="post-profile-icon">
+<img src="./images/photo5.png" alt=""><i class="fa-solid fa-caret-down"></i>
+  </div>
+</div>
+  </div>
+  <div class="post-container">
+    <div class="post-row">
+      <div class="user-profile">
+        <img src="./images/photo6.png" alt="">
+        <div >
+          <p>mr. Sharma</p>
+          <span>march 24 2024, 04:40 Pm</span>
+        </div>
+      </div>
+      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+    </div>
+    
+<p class="post-text">Subscribe<span> Blog</span>  youtube Channel and watch more Viedo like this
+<a href="#">#himanshu blog</a>  <a href="#">#youtubechannel</a></p>
+<img src="./images/photo1.png" alt="" class="post-img">
+<div class="post-row">
+  <div class="activity-icon">
+  <div><img src="./images/like-blue.png" alt="">
+  150</div>
+  <div><img src="./images/comments.png" alt="">
+    45</div>
+    <div><img src="./images/share.png" alt="">
+      20</div>
+  </div>
+  <div class="post-profile-icon">
+<img src="./images/photo6.png" alt=""><i class="fa-solid fa-caret-down"></i>
+  </div>
+</div>
+  </div>
+
+<button type="button" class="load-more-btn">Load More</button>
+</div>
+
+
+  <div class="right-sidebar">
+     <div class="sidebar-title">
+      <h4>Events</h4>
+      <a href="">See All</a>
+     </div>
+
+     <div class="event">
+      <div class="left-event">
+        <h3>05</h3>
+        <span>July</span>
+      </div>
+      <div class="right-event">
+        <h4>Social media</h4>
+        <p><i class="fa-solid fa-location-dot"></i> Marwadi university</p>
+        <a href="#">More Info</a>
+      </div>
+     </div>
+     <div class="event">
+      <div class="left-event">
+        <h3>22</h3>
+        <span>June</span>
+      </div>
+      <div class="right-event">
+        <h4>Web Interactction</h4>
+        <p><i class="fa-solid fa-location-dot"></i>   Marwadi university</p>
+        <a href="#">More Info</a>
+      </div>
+     </div>
+     <hr>
+
+     <div class="sidebar-title">
+      <h4>Advertisement</h4>
+      <a href="#">Close</a>
+     </div>
+     <img src="./images/advertisement.png" class="sidebar-ads" alt="">
+     <hr>
+     <div class="sidebar-title">
+      <h4>Conversation</h4>
+      <a href="#">Hide Chat</a>
+     </div>
+     <div class="online-list">
+      <div class="online">
+        <img src="./images/member-1.png" alt="how">
+      </div>
+        <p> Ankit Raj</p>
+      
+     </div>
+     <div class="online-list">
+      <div class="online">
+        <img src="./images/member-2.png" alt="how">
+      </div>
+        <p> Vikash kumar</p>
+      
+     </div>
+     <div class="online-list">
+      <div class="online">
+        <img src="./images/member-3.png" alt="how">
+      </div>
+        <p>Subhman Gill</p>
+     </div>
+ </div>
+</section>
+<div class="footer">
+  <p>Copyright 2024- Himanshu kumar Barnwal(web developer)</p>
+</div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+
+
+</html>
